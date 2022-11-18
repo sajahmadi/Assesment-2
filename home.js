@@ -53,14 +53,6 @@ console.log(greetUser("Andrew"));
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-const canWeDeliver = zipCode => {
-    for(let i=0; i < deliveryAreaZipCodes.length; i++){
-        if(deliveryAreaZipCodes[i]=== zipCode){
-        return console.log(`youre in the delivery zone`)
-    }
-}
-return console.log(`Sorry we cant deliver to your house`)
-}
 
 
 
@@ -84,9 +76,7 @@ return console.log(`Sorry we cant deliver to your house`)
 
 // CODE HERE
 
-const canWeDeliverTwo = zipCode => {
-    deliveryAreaZipCodes.includes(zipCode) ? console.log(`youre in the zone`): console.log(`youre outside the delivery zone`)
-}
+
 
 //////////////////PROBLEM 3////////////////////
 /* 

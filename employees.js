@@ -153,7 +153,7 @@ manager.getEmployees()
 */
 
 //CODE HERE 
-manager.addEmployee('Coach')
+
 
 /*
     Call the `getEmployees` method on the
