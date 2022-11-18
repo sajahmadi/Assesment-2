@@ -41,7 +41,7 @@ const summedPrice = cart.reduce((temp, x) => {
   return temp + x.price;
 }, 0);
 
-console.log(sum); 
+console.log(summedPrice); 
 
 
 //////////////////PROBLEM 2////////////////////
@@ -100,3 +100,11 @@ function calcFinalPrice(cartTotal, couponValue, tax) {
 */
 
 //CODE HERE
+const firstCustomer = {
+    name: 'Sam',
+    address: '54321 Smith St',
+    city: 'Houston',
+    state: 'TX',
+    phone: '2112334555',
+    zipcode: 78912
+}

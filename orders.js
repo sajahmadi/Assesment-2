@@ -60,6 +60,8 @@ new Ticket(20, "23456", "123").updateStatus("done");
 
 //CODE HERE
 
+let firstTicket = new Ticket(['pizza','bread','soda'],'7:30 pm',23)
+console.log(firstTicket)
 
 /*
     Call the `updateStatus` method on
@@ -68,3 +70,5 @@ new Ticket(20, "23456", "123").updateStatus("done");
 */
 
 //CODE HERE
+
+firstTicket.updateStatus('cooking')

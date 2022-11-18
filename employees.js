@@ -80,7 +80,8 @@ manager.getEmployees();
 
 //CODE HERE
 
-
+const empTwo = {...empOne, name:'Nick'}
+console.log(empTwo)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -108,7 +109,18 @@ manager.getEmployees();
 
 //CODE HERE
 
+class Manager extends Employee {
+    constrcutor(name, shifts,employees){
+        super(name,shifts)
+        this.employee = [employees]
+    }
 
+getEmployees() {
+    console.log(`${this.name} manages ${this.employees}`)
+}
+addEmployee(emp){
+    this.employee.push(emp)
+}}
 
 /*
     Create a new instance of your class.
@@ -123,6 +135,7 @@ manager.getEmployees();
 
 //CODE HERE
 
+let manager = new manager('Vinson','weekday mornings, weekday afternoons',['Cece','Schmidt','Jess'])
 
 /*
     Call the `getEmployees` method on the
@@ -131,6 +144,8 @@ manager.getEmployees();
 
 //CODE HERE
 
+manager.getEmployees()
+
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -138,6 +153,7 @@ manager.getEmployees();
 */
 
 //CODE HERE 
+manager.addEmployee('Coach')
 
 /*
     Call the `getEmployees` method on the
@@ -146,3 +162,4 @@ manager.getEmployees();
 */
 
 //CODE HERE
+manager.getEmployees()
